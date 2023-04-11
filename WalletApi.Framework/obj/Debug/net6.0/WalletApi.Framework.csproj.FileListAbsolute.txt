@@ -1,0 +1,12 @@
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\bin\Debug\net6.0\WalletApi.Framework.deps.json
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\bin\Debug\net6.0\WalletApi.Framework.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\bin\Debug\net6.0\WalletApi.Framework.pdb
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\obj\Debug\net6.0\WalletApi.Framework.csproj.AssemblyReference.cache
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\obj\Debug\net6.0\WalletApi.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\obj\Debug\net6.0\WalletApi.Framework.AssemblyInfoInputs.cache
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\obj\Debug\net6.0\WalletApi.Framework.AssemblyInfo.cs
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\obj\Debug\net6.0\WalletApi.Framework.csproj.CoreCompileInputs.cache
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\obj\Debug\net6.0\WalletApi.Framework.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\obj\Debug\net6.0\refint\WalletApi.Framework.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\obj\Debug\net6.0\WalletApi.Framework.pdb
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Framework\obj\Debug\net6.0\ref\WalletApi.Framework.dll

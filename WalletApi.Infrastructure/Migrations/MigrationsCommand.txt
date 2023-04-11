@@ -1,0 +1,2 @@
+﻿dotnet ef migrations add "Initial" -s "WalletApi/WalletApi.csproj" -p "WalletApi.Infrastructure" -o "Migrations" -c UsersContext
+dotnet ef migrations script --idempotent -o "WalletApi.Infrastructure/Scripts/idempotent.sql" -s "WalletApi/WalletApi.csproj" -p "WalletApi.Infrastructure" -c UsersContext

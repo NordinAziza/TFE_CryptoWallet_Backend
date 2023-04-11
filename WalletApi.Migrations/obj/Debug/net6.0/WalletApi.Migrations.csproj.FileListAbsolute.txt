@@ -1,0 +1,14 @@
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\bin\Debug\net6.0\WalletApi.Migrations.deps.json
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\bin\Debug\net6.0\WalletApi.Migrations.runtimeconfig.json
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\bin\Debug\net6.0\WalletApi.Migrations.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\bin\Debug\net6.0\WalletApi.Migrations.pdb
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\obj\Debug\net6.0\WalletApi.Migrations.csproj.AssemblyReference.cache
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\obj\Debug\net6.0\WalletApi.Migrations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\obj\Debug\net6.0\WalletApi.Migrations.AssemblyInfoInputs.cache
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\obj\Debug\net6.0\WalletApi.Migrations.AssemblyInfo.cs
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\obj\Debug\net6.0\WalletApi.Migrations.csproj.CoreCompileInputs.cache
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\obj\Debug\net6.0\WalletApi.Migrations.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\obj\Debug\net6.0\refint\WalletApi.Migrations.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\obj\Debug\net6.0\WalletApi.Migrations.pdb
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\obj\Debug\net6.0\WalletApi.Migrations.genruntimeconfig.cache
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Migrations\obj\Debug\net6.0\ref\WalletApi.Migrations.dll
