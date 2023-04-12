@@ -34,6 +34,11 @@ namespace WalletApi.Infrastructure.Repositories
         {
             return _context.Users.Add(user).Entity;
         }
+        public Users GetUserByEmail(string email)
+        { 
+            var user = _context.Users.FirstOrDefault(u => u.Email == email);
+            return user;
+        }
         #endregion
         #region Properties
         public IUnitOfWork UnitOfWork => _context;

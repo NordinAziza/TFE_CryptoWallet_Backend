@@ -91,3 +91,12 @@ C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\System.
 C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\WalletApi.Framework.dll
 C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\WalletApi.Framework.pdb
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\WalletApi.staticwebassets.runtime.json
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll

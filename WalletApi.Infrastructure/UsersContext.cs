@@ -12,7 +12,7 @@ using WalletApi.Infrastructure.Data.TypeConfigutations;
 
 namespace WalletApi.Infrastructure
 {
-    public class UsersContext :DbContext , IUnitOfWork, 
+    public class UsersContext :IdentityDbContext , IUnitOfWork
     {
         #region Constructor
         public UsersContext([NotNullAttribute] DbContextOptions options) : base(options) { }

@@ -11,5 +11,6 @@ namespace WalletApi.Domain
     {
         ICollection<Users> GetAll(int? userId);
         Users Register(Users user);
+        Users GetUserByEmail(string email);
     }
 }

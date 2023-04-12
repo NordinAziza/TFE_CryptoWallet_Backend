@@ -1,5 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Text;
 using WalletApi.Domain;
 using WalletApi.DTOS;
 using WalletApi.Utilities;
@@ -12,15 +16,19 @@ namespace WalletApi.Controllers
     {
         #region Fields
         //Dependency Injection in the controller's constructor
-        private readonly IUsersRepository _repository ;
+        private readonly IUsersRepository _repository;
         private readonly IHashService _hashService;
-        #endregion
-        #region Constructor
-        public UsersController(IUsersRepository repository , IHashService hashService)
+        private readonly IJwtUtility _jwtUtility;
+        private readonly string _jwtSecret;
+
+        public UsersController(IUsersRepository repository, IHashService hashService, IJwtUtility jwtUtility, IConfiguration config)
         {
             _repository = repository;
             _hashService = hashService;
+            _jwtUtility = jwtUtility;
+            _jwtSecret = config.GetValue<string>("JwtSecret");
         }
+
         #endregion
 
         #region Methods
@@ -58,6 +66,57 @@ namespace WalletApi.Controllers
 
             return result;
         }
+        [HttpPost("login")]
+        public IActionResult Login(AuthUsersDto loginDto)
+        {
+            var user = _repository.GetUserByEmail(loginDto.Email);
+
+            if (user == null || !_hashService.VerifyPassword(loginDto.Password, user.Password))
+            {
+                return Unauthorized();
+            }
+
+            var token = _jwtUtility.GenerateJwtToken(user);
+
+            return Ok(new { token });
+        }
+        [Authorize]
+        [HttpGet("profile")]
+        public IActionResult GetProfile()
+        {
+            var token = Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
+
+            if (token == null)
+            {
+                return Unauthorized();
+            }
+
+            try
+            {
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var key = Encoding.ASCII.GetBytes(_jwtSecret);
+                tokenHandler.ValidateToken(token, new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ClockSkew = TimeSpan.Zero
+                }, out SecurityToken validatedToken);
+
+                var jwtToken = (JwtSecurityToken)validatedToken;
+                var email = jwtToken.Claims.First(x => x.Type == "email").Value;
+
+                var user = _repository.GetUserByEmail(email);
+
+                return Ok(user);
+            }
+            catch (Exception)
+            {
+                return Unauthorized();
+            }
+        }
+
         #endregion
     }
 }

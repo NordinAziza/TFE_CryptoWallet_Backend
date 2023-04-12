@@ -11,6 +11,7 @@ namespace WalletApi.ExentsionsMethods
         {
             services.AddScoped<IUsersRepository, UsersRepository>();
             services.AddScoped<IHashService, SHA256HashService>();
+            services.AddScoped<IJwtUtility ,JwtUtility>();
         }
         #endregion
     }

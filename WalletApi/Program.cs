@@ -3,6 +3,7 @@ using WalletApi.Domain;
 using WalletApi.Infrastructure;
 using WalletApi.Infrastructure.Repositories;
 using WalletApi.ExentsionsMethods;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,12 @@ builder.Services.AddDbContext<UsersContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("walletDataBase"),sqlOption =>{});
 });
+builder.Services.AddDefaultIdentity<IdentityUser>(option =>
+{
+    //option.SignIn.RequireConfirmedEmail = true; 
+}).AddEntityFrameworkStores<UsersContext>();
+builder.Services.AddCustomSecurity(builder.Configuration);
+builder.Services.AddAuthentication();
 builder.Services.AddInjections();
 builder.Services.AddControllers();
 // builder.Services.AddScoped<IUsersRepository, UsersRepositories>();
@@ -31,7 +38,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllers();
 
