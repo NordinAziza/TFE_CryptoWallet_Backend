@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WalletApi.Infrastructure
-build_property.ProjectDir = C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Infrastructure\
+build_property.ProjectDir = e:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Infrastructure\

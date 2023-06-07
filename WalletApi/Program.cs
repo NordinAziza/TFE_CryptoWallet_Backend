@@ -9,6 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 #region MypartofTheCode
+//TradeRequest
+builder.Services.AddScoped<ITradeRequestRepository, TradeRequestRepository>();
+builder.Services.AddDbContext<TradeRequestContext>(option =>
+{
+    option.UseSqlServer(builder.Configuration.GetConnectionString("walletDataBase"),sqlOption => { });
+});
+//users
 builder.Services.AddDbContext<UsersContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("walletDataBase"),sqlOption =>{});
@@ -20,8 +27,21 @@ builder.Services.AddDefaultIdentity<IdentityUser>(option =>
 builder.Services.AddCustomSecurity(builder.Configuration);
 builder.Services.AddAuthentication();
 builder.Services.AddInjections();
-builder.Services.AddControllers();
-// builder.Services.AddScoped<IUsersRepository, UsersRepositories>();
+builder.Services.AddScoped<ITradeRequestRepository, TradeRequestRepository>();
+
+//builder.Services.AddControllers(); builder.Services.AddScoped<IUsersRepository, UsersRepositories>();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
 #endregion
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -37,11 +57,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("AllowAllOrigins");
 app.UseAuthentication();
 app.UseAuthorization();
-
-
 app.MapControllers();
-
 app.Run();

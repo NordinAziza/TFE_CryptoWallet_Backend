@@ -13,3 +13,18 @@ C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Domain\obj\Debug\net6.0\
 C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Domain\bin\Debug\net6.0\WalletApi.Framework.dll
 C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Domain\bin\Debug\net6.0\WalletApi.Framework.pdb
 C:\Users\NAZ\Documents\formation c#\WalletApi\WalletApi.Domain\obj\Debug\net6.0\WalletApi.Domain.csproj.CopyComplete
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\bin\Debug\net6.0\WalletApi.Domain.deps.json
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\bin\Debug\net6.0\WalletApi.Domain.dll
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\bin\Debug\net6.0\WalletApi.Domain.pdb
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\bin\Debug\net6.0\WalletApi.Framework.dll
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\bin\Debug\net6.0\WalletApi.Framework.pdb
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\obj\Debug\net6.0\WalletApi.Domain.csproj.AssemblyReference.cache
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\obj\Debug\net6.0\WalletApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\obj\Debug\net6.0\WalletApi.Domain.AssemblyInfoInputs.cache
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\obj\Debug\net6.0\WalletApi.Domain.AssemblyInfo.cs
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\obj\Debug\net6.0\WalletApi.Domain.csproj.CoreCompileInputs.cache
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\obj\Debug\net6.0\WalletApi.Domain.csproj.CopyComplete
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\obj\Debug\net6.0\WalletApi.Domain.dll
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\obj\Debug\net6.0\refint\WalletApi.Domain.dll
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\obj\Debug\net6.0\WalletApi.Domain.pdb
+E:\ifapme\TFE_CryptoWallet_Backend\WalletApi.Domain\obj\Debug\net6.0\ref\WalletApi.Domain.dll

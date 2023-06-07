@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q9OlgQpuWvknaVlozzG/TMlFDu8wq9I83egp3kHUb8eBvAS6PntuNVYiVVDnh9CE8E/1cN6tx4e7mM1n7f8vsQ==",
+  "dgSpecHash": "SNdRWxhBiK0vDgB9CTjHXcnDABiXRniXk2dNkqAi9OMOYmpHaF476+H0BqsLufIqruidLKmDvSiaXP212CndlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Framework\\WalletApi.Framework.csproj",
+  "projectFilePath": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Framework\\WalletApi.Framework.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -15,7 +15,7 @@ namespace WalletApi.Infrastructure
     public class UsersContext :IdentityDbContext , IUnitOfWork
     {
         #region Constructor
-        public UsersContext([NotNullAttribute] DbContextOptions options) : base(options) { }
+        public UsersContext([NotNullAttribute] DbContextOptions<UsersContext> options) : base(options) { }
 
         public UsersContext() : base() { }
         #endregion

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Infrastructure\\WalletApi.Infrastructure.csproj": {}
+    "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Infrastructure\\WalletApi.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Domain\\WalletApi.Domain.csproj": {
+    "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Domain\\WalletApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Domain\\WalletApi.Domain.csproj",
+        "projectUniqueName": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Domain\\WalletApi.Domain.csproj",
         "projectName": "WalletApi.Domain",
-        "projectPath": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Domain\\WalletApi.Domain.csproj",
-        "packagesPath": "C:\\Users\\NAZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Domain\\obj\\",
+        "projectPath": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Domain\\WalletApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\corio\\.nuget\\packages\\",
+        "outputPath": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NAZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\corio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Framework\\WalletApi.Framework.csproj": {
-                "projectPath": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Framework\\WalletApi.Framework.csproj"
+              "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Framework\\WalletApi.Framework.csproj": {
+                "projectPath": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Framework\\WalletApi.Framework.csproj"
               }
             }
           }
@@ -59,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Framework\\WalletApi.Framework.csproj": {
+    "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Framework\\WalletApi.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Framework\\WalletApi.Framework.csproj",
+        "projectUniqueName": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Framework\\WalletApi.Framework.csproj",
         "projectName": "WalletApi.Framework",
-        "projectPath": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Framework\\WalletApi.Framework.csproj",
-        "packagesPath": "C:\\Users\\NAZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Framework\\obj\\",
+        "projectPath": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Framework\\WalletApi.Framework.csproj",
+        "packagesPath": "C:\\Users\\corio\\.nuget\\packages\\",
+        "outputPath": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NAZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\corio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,21 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Infrastructure\\WalletApi.Infrastructure.csproj": {
+    "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Infrastructure\\WalletApi.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Infrastructure\\WalletApi.Infrastructure.csproj",
+        "projectUniqueName": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Infrastructure\\WalletApi.Infrastructure.csproj",
         "projectName": "WalletApi.Infrastructure",
-        "projectPath": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Infrastructure\\WalletApi.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\NAZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Infrastructure\\obj\\",
+        "projectPath": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Infrastructure\\WalletApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\corio\\.nuget\\packages\\",
+        "outputPath": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NAZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\corio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,11 +142,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Domain\\WalletApi.Domain.csproj": {
-                "projectPath": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Domain\\WalletApi.Domain.csproj"
+              "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Domain\\WalletApi.Domain.csproj": {
+                "projectPath": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Domain\\WalletApi.Domain.csproj"
               },
-              "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Framework\\WalletApi.Framework.csproj": {
-                "projectPath": "C:\\Users\\NAZ\\Documents\\formation c#\\WalletApi\\WalletApi.Framework\\WalletApi.Framework.csproj"
+              "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Framework\\WalletApi.Framework.csproj": {
+                "projectPath": "E:\\ifapme\\TFE_CryptoWallet_Backend\\WalletApi.Framework\\WalletApi.Framework.csproj"
               }
             }
           }
@@ -204,7 +204,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
